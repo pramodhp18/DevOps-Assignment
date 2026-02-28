@@ -1,0 +1,11 @@
+environment     = "dev"
+aws_region      = "ap-south-1"
+vpc_cidr        = "10.0.0.0/16"
+frontend_cpu    = 256
+frontend_memory = 512
+backend_cpu     = 256
+backend_memory  = 512
+min_capacity    = 1
+max_capacity    = 1
+frontend_image  = "018763152252.dkr.ecr.ap-south-1.amazonaws.com/pgagi-frontend:dev"
+backend_image   = "018763152252.dkr.ecr.ap-south-1.amazonaws.com/pgagi-backend:dev"

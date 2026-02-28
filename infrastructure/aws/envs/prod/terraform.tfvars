@@ -1,0 +1,11 @@
+environment     = "prod"
+aws_region      = "us-east-1"
+vpc_cidr        = "10.2.0.0/16"
+frontend_cpu    = 1024
+frontend_memory = 2048
+backend_cpu     = 1024
+backend_memory  = 2048
+min_capacity    = 2
+max_capacity    = 10
+frontend_image  = "018763152252.dkr.ecr.us-east-1.amazonaws.com/pgagi-frontend:prod"
+backend_image   = "018763152252.dkr.ecr.us-east-1.amazonaws.com/pgagi-backend:prod"

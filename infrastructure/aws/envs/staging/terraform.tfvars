@@ -1,0 +1,11 @@
+environment     = "staging"
+aws_region      = "us-east-1"
+vpc_cidr        = "10.1.0.0/16"
+frontend_cpu    = 512
+frontend_memory = 1024
+backend_cpu     = 512
+backend_memory  = 1024
+min_capacity    = 1
+max_capacity    = 3
+frontend_image  = "018763152252.dkr.ecr.us-east-1.amazonaws.com/pgagi-frontend:staging"
+backend_image   = "018763152252.dkr.ecr.us-east-1.amazonaws.com/pgagi-backend:staging"
